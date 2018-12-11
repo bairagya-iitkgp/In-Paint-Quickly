@@ -21,3 +21,9 @@ e.g: To choose 128X128 resolution for training
    e.g: To choose Bilinear Resize Separable model set model=2
    
        python train.py --model=2
+       
+3. To set range for hole-size set the minimum dimension at HOLE_MIN and set maximum dimension at HOLE_MAX.
+
+   e.g: To generate holes in the range (24,48) use
+   
+       python train.py --HOLE_MIN=24 --HOLE_MAX=48
