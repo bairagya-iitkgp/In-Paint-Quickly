@@ -85,4 +85,11 @@ done in load.py file.
 To resume training from a previously saved checkpoint first save the checkpoint files in a specific folder and pass the address
 to the 'restoration_path'.
 
+# How to Use Weights from a Pre-trained Model for Training another model
+
+To accomplish this purpose first keep the Pre-trained model in a particular folder and pass the address of the folder to the
+'pretrain_path'.
+
+Then set 'use_pretrain'=True and start training.
+
 
