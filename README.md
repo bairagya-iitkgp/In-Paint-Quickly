@@ -11,8 +11,11 @@ e.g: To choose 128X128 resolution for training
        python train.py --res=128 --IMAGE_SIZE=128 --LOCAL_SIZE=64
     
 2. Here one of the three models can be chosen for in-painting.
+   
    1=> Baseline
+   
    2=> Bilinear Resize Separable
+   
    3=> Pixel Shuffle
    
    e.g: To choose Bilinear Resize Separable model set model=2
