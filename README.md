@@ -43,4 +43,46 @@ e.g: One example of usage is as follows
 e.g: One such example is as follows
 
        python train.py --PRETRAIN_EPOCH=4 --Td_EPOCH=1 --Tot_EPOCH=11
+       
+       
+# How to Set Up Paths to Various Folders
+
+1. Path to save checkpoints can be set as follows:
+
+       python train.py --checkpoints_path = ./backup
+
+2. Path to restore a model from saved checkpoints or to save current model can be set as follows:
+
+       python train.py --restoration_path = ./backup/latest
+
+3. Path to access the training data stored in numpy format can be set as follows:
+
+       python train.py --data_path = ./npy
+       
+4. Path to save the original input images can be set as follows: 
+
+       python train.py --original = ./original
+
+5. Path to save the output images can be set as follows:
+
+       python train.py --output = ./output
+
+6. Path to save the perturbed images can be set as follows:
+
+       python train.py --perturbed = ./perturbed
+
+
+# How to Arrange Training Data
+
+Before training the dataset should be converted to an numpy array and then the path to that folder should be paased to 
+'data_path' either by making changes to config.py file or using command line arguments.
+
+Train data should be saved as 'x_train.npy' and Test data should be saved as 'x_test.npy' otherwise, necessary changes should be
+done in load.py file.
+
+# How to Resume Training from a Previously Saved Checkpoint
+
+To resume training from a previously saved checkpoint first save the checkpoint files in a specific folder and pass the address
+to the 'restoration_path'.
+
 
