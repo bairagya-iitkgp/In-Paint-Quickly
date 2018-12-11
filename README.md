@@ -35,4 +35,11 @@ e.g: One example of usage is as follows
 
        python train.py --LEARNING_RATE=1e-3 --BATCH_SIZE=32 --alpha=1.0
 
+5. PRETRAIN_EPOCH sets the value of number of epochs to be spend on Completion Network training phase,Td_EPOCH sets the
+   value of number of epochs for Discriminator training phase and Tot_EPOCH sets the value of number of epochs for 
+   Total training.
+   
+e.g: One such example is as follows
+
+       python train.py --PRETRAIN_EPOCH=4 --Td_EPOCH=1 --Tot_EPOCH=11
 
