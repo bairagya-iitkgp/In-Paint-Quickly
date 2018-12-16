@@ -110,6 +110,7 @@ Then choose the desired resolution of operation and proper model option (same as
 
     https://drive.google.com/open?id=1f12naqJbiQSkk3B7a9GghXf5TFXUJdKb
 
+128X128 model has been trained on celeba dataset and 256X256 celeba-HQ dataset.
 
 
 
