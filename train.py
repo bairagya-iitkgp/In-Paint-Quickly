@@ -11,12 +11,10 @@ if args.res==128:
      if args.model==3:
           from network3 import Network
 elif args.res==256:
-     if args.model==1:
-          from network4 import Network
      if args.model==2:
           from network5 import Network
      if args.model==3:
-          from network6 import Network    
+          from network6 import Network   
 import load
 import logging
 from imutils import face_utils
