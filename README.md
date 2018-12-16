@@ -112,7 +112,7 @@ Then choose the desired resolution of operation and proper model option (same as
 
 # Link to download the pre-trained checkpoint files for different models
 
-    https://drive.google.com/open?id=1f12naqJbiQSkk3B7a9GghXf5TFXUJdKb
+'https://drive.google.com/open?id=1f12naqJbiQSkk3B7a9GghXf5TFXUJdKb'
 
 128X128 model has been trained on celeba dataset and 256X256 celeba-HQ dataset.
 
