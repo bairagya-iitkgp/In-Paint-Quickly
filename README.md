@@ -92,4 +92,13 @@ To accomplish this purpose first keep the Pre-trained model in a particular fold
 
 Then set 'use_pretrain'=True and start training.
 
+# How to run inference on test images
+
+To run inference on some test images, use "test.py" code. 
+First, load the required checkpoints in some folder and add that path in "config.py" file or through command line arguments as 
+shown above.
+Convert the test images into a numpy array and privide the path to in config.py or through command line argument.
+Similarly provide the path of the output folder to save outputs to in config.py or through command line argument. 
+Then choose the desired resolution of operation and proper model option and run "test.py". 
+
 
