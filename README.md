@@ -19,6 +19,10 @@ e.g: To choose 128X128 resolution for training
    
    3=> Pixel Shuffle
    
+   For 256X256 model there is no need to choose 1 for baseline as in this case we have used in-painting model from 
+   'http://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_Generative_Image_Inpainting_CVPR_2018_paper.pdf' as our
+   baseline model. 
+   
 e.g: To choose Bilinear Resize Separable model set model=2
    
        python train.py --model=2
